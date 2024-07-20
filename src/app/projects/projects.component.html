@@ -1,0 +1,13 @@
+<section class="text-gray-800 py-20">
+  <div class="container mx-auto px-6">
+    <div class="text-center mb-12">
+      <h2 class="text-4xl font-bold mb-4">My Projects</h2>
+      <p class="text-lg">Here are some projects I have worked on recently.</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      @for(project of projects;track project.title){
+      <app-pcard [project]="project"></app-pcard>
+      }
+    </div>
+  </div>
+</section>
