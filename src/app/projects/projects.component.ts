@@ -27,7 +27,7 @@ export class ProjectsComponent {
     {
       title: 'Project 2',
       description:
-        'lorem ipsum yau lakr kajkjja kaemm jaij m oj ojeo ifkeem, nkkf,lalz',
+        'lorem ipsum yau lakr kajkjja kaemm jaij m oj ojeo ifkeem, nkkf,lalz sdfghjkhcyghnjkicuhb n,kjduhbcn,ksidhsn fdwsdfwdsfdvwsdfdfef',
       image: 'recomm.png',
       link: 'https://github.com/youssefbelkhiri',
     },

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { TruncatePipe } from '../truncate.pipe';
 
 interface Project {
   title: string;
@@ -10,7 +11,7 @@ interface Project {
 @Component({
   selector: 'app-pcard',
   standalone: true,
-  imports: [],
+  imports: [TruncatePipe],
   templateUrl: './pcard.component.html',
   styleUrl: './pcard.component.css',
 })
